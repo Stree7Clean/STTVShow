@@ -8,6 +8,8 @@
 
 #import "AppDelegate.h"
 
+#import "STJHAPIClient.h"
+
 @interface AppDelegate ()
 
 @end
@@ -17,6 +19,10 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    //绑定聚合数据APPKEY
+    [STJHAPIClient startup];
+    
     return YES;
 }
 

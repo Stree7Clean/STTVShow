@@ -7,25 +7,119 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7AF775566F2A70B50348841F /* libPods-STTVShow.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 05E3ABE91E9A0229D748372F /* libPods-STTVShow.a */; };
 		E47C0F8E1D260384002894AF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E47C0F8D1D260384002894AF /* main.m */; };
-		E47C0F911D260384002894AF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E47C0F901D260384002894AF /* AppDelegate.m */; };
-		E47C0F941D260384002894AF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E47C0F931D260384002894AF /* ViewController.m */; };
+		E47C0F911D260384002894AF /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = E47C0F901D260384002894AF /* AppDelegate.mm */; };
 		E47C0F971D260384002894AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E47C0F951D260384002894AF /* Main.storyboard */; };
 		E47C0F991D260384002894AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E47C0F981D260384002894AF /* Assets.xcassets */; };
 		E47C0F9C1D260384002894AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E47C0F9A1D260384002894AF /* LaunchScreen.storyboard */; };
+		E47C0FAA1D260788002894AF /* JuheApisSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E47C0FA91D260788002894AF /* JuheApisSDK.a */; };
+		E47C0FAC1D2608D8002894AF /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E47C0FAB1D2608D8002894AF /* CoreTelephony.framework */; };
+		E47C0FAE1D2608E3002894AF /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E47C0FAD1D2608E3002894AF /* AdSupport.framework */; };
+		E47C0FB01D2608EC002894AF /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E47C0FAF1D2608EC002894AF /* CoreLocation.framework */; };
+		E47C0FB41D260F17002894AF /* STJHAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = E47C0FB31D260F17002894AF /* STJHAPIClient.m */; };
+		E47C0FB81D261AA7002894AF /* BaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E47C0FB71D261AA7002894AF /* BaseTableViewController.m */; };
+		E47C0FBF1D261DE9002894AF /* STTVStationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E47C0FBE1D261DE9002894AF /* STTVStationViewController.m */; };
+		E47C0FC61D262061002894AF /* SystemMethodHook.m in Sources */ = {isa = PBXBuildFile; fileRef = E47C0FC51D262061002894AF /* SystemMethodHook.m */; };
+		E47C0FCA1D2620BF002894AF /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = E47C0FC91D2620BF002894AF /* UIView+Extension.m */; };
+		E47C10061D262286002894AF /* NSAttributedString+SizeRemind.m in Sources */ = {isa = PBXBuildFile; fileRef = E47C0FF31D262286002894AF /* NSAttributedString+SizeRemind.m */; };
+		E47C10071D262286002894AF /* NSDate+Format.m in Sources */ = {isa = PBXBuildFile; fileRef = E47C0FF51D262286002894AF /* NSDate+Format.m */; };
+		E47C10081D262286002894AF /* NSString+AttributedString.m in Sources */ = {isa = PBXBuildFile; fileRef = E47C0FF71D262286002894AF /* NSString+AttributedString.m */; };
+		E47C10091D262286002894AF /* NSString+TimeStamp.m in Sources */ = {isa = PBXBuildFile; fileRef = E47C0FF91D262286002894AF /* NSString+TimeStamp.m */; };
+		E47C100A1D262286002894AF /* UIColor+Ext.m in Sources */ = {isa = PBXBuildFile; fileRef = E47C0FFB1D262286002894AF /* UIColor+Ext.m */; };
+		E47C100B1D262286002894AF /* UIFont+SM_Ext.m in Sources */ = {isa = PBXBuildFile; fileRef = E47C0FFD1D262286002894AF /* UIFont+SM_Ext.m */; };
+		E47C100C1D262286002894AF /* UIImage+Color.m in Sources */ = {isa = PBXBuildFile; fileRef = E47C0FFF1D262286002894AF /* UIImage+Color.m */; };
+		E47C100D1D262286002894AF /* UIImage+Initial.m in Sources */ = {isa = PBXBuildFile; fileRef = E47C10011D262286002894AF /* UIImage+Initial.m */; };
+		E47C100E1D262286002894AF /* UIImageView+SMWebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = E47C10031D262286002894AF /* UIImageView+SMWebCache.m */; };
+		E47C100F1D262286002894AF /* UIScrollView+EmptyDataSet.m in Sources */ = {isa = PBXBuildFile; fileRef = E47C10051D262286002894AF /* UIScrollView+EmptyDataSet.m */; };
+		E47C10201D263B83002894AF /* STTelevisionStation.m in Sources */ = {isa = PBXBuildFile; fileRef = E47C101F1D263B83002894AF /* STTelevisionStation.m */; };
+		E47C10291D264406002894AF /* BaseObject.m in Sources */ = {isa = PBXBuildFile; fileRef = E47C10221D264406002894AF /* BaseObject.m */; };
+		E47C102A1D264406002894AF /* BaseTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E47C10241D264406002894AF /* BaseTableCell.m */; };
+		E47C102B1D264406002894AF /* BaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = E47C10261D264406002894AF /* BaseView.m */; };
+		E47C102C1D264406002894AF /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E47C10281D264406002894AF /* BaseViewController.m */; };
+		E47C10331D264498002894AF /* 19=胡晓波美心常规体.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E47C10321D264498002894AF /* 19=胡晓波美心常规体.ttf */; };
+		E47C10361D264703002894AF /* STNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = E47C10351D264703002894AF /* STNavigationController.m */; };
+		E47C103C1D26499C002894AF /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = E47C10391D26499C002894AF /* back.png */; };
+		E47C103D1D26499C002894AF /* back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E47C103A1D26499C002894AF /* back@2x.png */; };
+		E47C103E1D26499C002894AF /* back@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E47C103B1D26499C002894AF /* back@3x.png */; };
+		E47C10451D264C92002894AF /* STTelevisionChannel.m in Sources */ = {isa = PBXBuildFile; fileRef = E47C10441D264C92002894AF /* STTelevisionChannel.m */; };
+		E47C10481D264DD1002894AF /* STChannelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E47C10471D264DD1002894AF /* STChannelViewController.m */; };
+		E47C104B1D265D57002894AF /* STChannelPlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E47C104A1D265D57002894AF /* STChannelPlayViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		05E3ABE91E9A0229D748372F /* libPods-STTVShow.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-STTVShow.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A09BC0514454929B0C1249A /* Pods-STTVShow.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-STTVShow.debug.xcconfig"; path = "Pods/Target Support Files/Pods-STTVShow/Pods-STTVShow.debug.xcconfig"; sourceTree = "<group>"; };
+		59F7329089CD63D5E82FB117 /* Pods-STTVShow.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-STTVShow.release.xcconfig"; path = "Pods/Target Support Files/Pods-STTVShow/Pods-STTVShow.release.xcconfig"; sourceTree = "<group>"; };
 		E47C0F891D260384002894AF /* STTVShow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = STTVShow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E47C0F8D1D260384002894AF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E47C0F8F1D260384002894AF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		E47C0F901D260384002894AF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		E47C0F921D260384002894AF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		E47C0F931D260384002894AF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E47C0F901D260384002894AF /* AppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegate.mm; sourceTree = "<group>"; };
 		E47C0F961D260384002894AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		E47C0F981D260384002894AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E47C0F981D260384002894AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
 		E47C0F9B1D260384002894AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		E47C0F9D1D260384002894AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E47C0F9D1D260384002894AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Info.plist; sourceTree = "<group>"; };
+		E47C0FA71D260788002894AF /* JHAPISDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHAPISDK.h; sourceTree = "<group>"; };
+		E47C0FA81D260788002894AF /* JHOpenidSupplier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHOpenidSupplier.h; sourceTree = "<group>"; };
+		E47C0FA91D260788002894AF /* JuheApisSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = JuheApisSDK.a; sourceTree = "<group>"; };
+		E47C0FAB1D2608D8002894AF /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		E47C0FAD1D2608E3002894AF /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		E47C0FAF1D2608EC002894AF /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		E47C0FB21D260F17002894AF /* STJHAPIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = STJHAPIClient.h; path = Tool/STJHAPIClient.h; sourceTree = "<group>"; };
+		E47C0FB31D260F17002894AF /* STJHAPIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = STJHAPIClient.m; path = Tool/STJHAPIClient.m; sourceTree = "<group>"; };
+		E47C0FB61D261AA7002894AF /* BaseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BaseTableViewController.h; path = Base/BaseTableViewController.h; sourceTree = "<group>"; };
+		E47C0FB71D261AA7002894AF /* BaseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BaseTableViewController.m; path = Base/BaseTableViewController.m; sourceTree = "<group>"; };
+		E47C0FBD1D261DE9002894AF /* STTVStationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STTVStationViewController.h; sourceTree = "<group>"; };
+		E47C0FBE1D261DE9002894AF /* STTVStationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STTVStationViewController.m; sourceTree = "<group>"; };
+		E47C0FC41D262061002894AF /* SystemMethodHook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SystemMethodHook.h; sourceTree = "<group>"; };
+		E47C0FC51D262061002894AF /* SystemMethodHook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SystemMethodHook.m; sourceTree = "<group>"; };
+		E47C0FC81D2620BF002894AF /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+Extension.h"; path = "Extension/UIView+Extension.h"; sourceTree = "<group>"; };
+		E47C0FC91D2620BF002894AF /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+Extension.m"; path = "Extension/UIView+Extension.m"; sourceTree = "<group>"; };
+		E47C0FF21D262286002894AF /* NSAttributedString+SizeRemind.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSAttributedString+SizeRemind.h"; path = "Extension/NSAttributedString+SizeRemind.h"; sourceTree = "<group>"; };
+		E47C0FF31D262286002894AF /* NSAttributedString+SizeRemind.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSAttributedString+SizeRemind.m"; path = "Extension/NSAttributedString+SizeRemind.m"; sourceTree = "<group>"; };
+		E47C0FF41D262286002894AF /* NSDate+Format.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDate+Format.h"; path = "Extension/NSDate+Format.h"; sourceTree = "<group>"; };
+		E47C0FF51D262286002894AF /* NSDate+Format.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDate+Format.m"; path = "Extension/NSDate+Format.m"; sourceTree = "<group>"; };
+		E47C0FF61D262286002894AF /* NSString+AttributedString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+AttributedString.h"; path = "Extension/NSString+AttributedString.h"; sourceTree = "<group>"; };
+		E47C0FF71D262286002894AF /* NSString+AttributedString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+AttributedString.m"; path = "Extension/NSString+AttributedString.m"; sourceTree = "<group>"; };
+		E47C0FF81D262286002894AF /* NSString+TimeStamp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+TimeStamp.h"; path = "Extension/NSString+TimeStamp.h"; sourceTree = "<group>"; };
+		E47C0FF91D262286002894AF /* NSString+TimeStamp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+TimeStamp.m"; path = "Extension/NSString+TimeStamp.m"; sourceTree = "<group>"; };
+		E47C0FFA1D262286002894AF /* UIColor+Ext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+Ext.h"; path = "Extension/UIColor+Ext.h"; sourceTree = "<group>"; };
+		E47C0FFB1D262286002894AF /* UIColor+Ext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor+Ext.m"; path = "Extension/UIColor+Ext.m"; sourceTree = "<group>"; };
+		E47C0FFC1D262286002894AF /* UIFont+SM_Ext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIFont+SM_Ext.h"; path = "Extension/UIFont+SM_Ext.h"; sourceTree = "<group>"; };
+		E47C0FFD1D262286002894AF /* UIFont+SM_Ext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIFont+SM_Ext.m"; path = "Extension/UIFont+SM_Ext.m"; sourceTree = "<group>"; };
+		E47C0FFE1D262286002894AF /* UIImage+Color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+Color.h"; path = "Extension/UIImage+Color.h"; sourceTree = "<group>"; };
+		E47C0FFF1D262286002894AF /* UIImage+Color.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Color.m"; path = "Extension/UIImage+Color.m"; sourceTree = "<group>"; };
+		E47C10001D262286002894AF /* UIImage+Initial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+Initial.h"; path = "Extension/UIImage+Initial.h"; sourceTree = "<group>"; };
+		E47C10011D262286002894AF /* UIImage+Initial.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Initial.m"; path = "Extension/UIImage+Initial.m"; sourceTree = "<group>"; };
+		E47C10021D262286002894AF /* UIImageView+SMWebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImageView+SMWebCache.h"; path = "Extension/UIImageView+SMWebCache.h"; sourceTree = "<group>"; };
+		E47C10031D262286002894AF /* UIImageView+SMWebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+SMWebCache.m"; path = "Extension/UIImageView+SMWebCache.m"; sourceTree = "<group>"; };
+		E47C10041D262286002894AF /* UIScrollView+EmptyDataSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+EmptyDataSet.h"; path = "Extension/UIScrollView+EmptyDataSet.h"; sourceTree = "<group>"; };
+		E47C10051D262286002894AF /* UIScrollView+EmptyDataSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+EmptyDataSet.m"; path = "Extension/UIScrollView+EmptyDataSet.m"; sourceTree = "<group>"; };
+		E47C101E1D263B83002894AF /* STTelevisionStation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = STTelevisionStation.h; path = Model/STTelevisionStation.h; sourceTree = "<group>"; };
+		E47C101F1D263B83002894AF /* STTelevisionStation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = STTelevisionStation.m; path = Model/STTelevisionStation.m; sourceTree = "<group>"; };
+		E47C10211D264406002894AF /* BaseObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BaseObject.h; path = Base/BaseObject.h; sourceTree = "<group>"; };
+		E47C10221D264406002894AF /* BaseObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BaseObject.m; path = Base/BaseObject.m; sourceTree = "<group>"; };
+		E47C10231D264406002894AF /* BaseTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BaseTableCell.h; path = Base/BaseTableCell.h; sourceTree = "<group>"; };
+		E47C10241D264406002894AF /* BaseTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BaseTableCell.m; path = Base/BaseTableCell.m; sourceTree = "<group>"; };
+		E47C10251D264406002894AF /* BaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BaseView.h; path = Base/BaseView.h; sourceTree = "<group>"; };
+		E47C10261D264406002894AF /* BaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BaseView.m; path = Base/BaseView.m; sourceTree = "<group>"; };
+		E47C10271D264406002894AF /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BaseViewController.h; path = Base/BaseViewController.h; sourceTree = "<group>"; };
+		E47C10281D264406002894AF /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BaseViewController.m; path = Base/BaseViewController.m; sourceTree = "<group>"; };
+		E47C102D1D264415002894AF /* MainAppearance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainAppearance.h; path = Macro/MainAppearance.h; sourceTree = "<group>"; };
+		E47C102E1D264415002894AF /* MainConfigure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainConfigure.h; path = Macro/MainConfigure.h; sourceTree = "<group>"; };
+		E47C102F1D264415002894AF /* Notification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Notification.h; path = Macro/Notification.h; sourceTree = "<group>"; };
+		E47C10321D264498002894AF /* 19=胡晓波美心常规体.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "19=胡晓波美心常规体.ttf"; sourceTree = "<group>"; };
+		E47C10341D264703002894AF /* STNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = STNavigationController.h; path = Base/STNavigationController.h; sourceTree = "<group>"; };
+		E47C10351D264703002894AF /* STNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = STNavigationController.m; path = Base/STNavigationController.m; sourceTree = "<group>"; };
+		E47C10391D26499C002894AF /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
+		E47C103A1D26499C002894AF /* back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back@2x.png"; sourceTree = "<group>"; };
+		E47C103B1D26499C002894AF /* back@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back@3x.png"; sourceTree = "<group>"; };
+		E47C10431D264C92002894AF /* STTelevisionChannel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STTelevisionChannel.h; sourceTree = "<group>"; };
+		E47C10441D264C92002894AF /* STTelevisionChannel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STTelevisionChannel.m; sourceTree = "<group>"; };
+		E47C10461D264DD1002894AF /* STChannelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STChannelViewController.h; sourceTree = "<group>"; };
+		E47C10471D264DD1002894AF /* STChannelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STChannelViewController.m; sourceTree = "<group>"; };
+		E47C10491D265D57002894AF /* STChannelPlayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STChannelPlayViewController.h; sourceTree = "<group>"; };
+		E47C104A1D265D57002894AF /* STChannelPlayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STChannelPlayViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +127,44 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E47C0FB01D2608EC002894AF /* CoreLocation.framework in Frameworks */,
+				E47C0FAE1D2608E3002894AF /* AdSupport.framework in Frameworks */,
+				E47C0FAC1D2608D8002894AF /* CoreTelephony.framework in Frameworks */,
+				7AF775566F2A70B50348841F /* libPods-STTVShow.a in Frameworks */,
+				E47C0FAA1D260788002894AF /* JuheApisSDK.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		26F81ABA11753065379A4973 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E47C0FAF1D2608EC002894AF /* CoreLocation.framework */,
+				E47C0FAD1D2608E3002894AF /* AdSupport.framework */,
+				E47C0FAB1D2608D8002894AF /* CoreTelephony.framework */,
+				05E3ABE91E9A0229D748372F /* libPods-STTVShow.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		728A40C7B1537288F439CD3F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4A09BC0514454929B0C1249A /* Pods-STTVShow.debug.xcconfig */,
+				59F7329089CD63D5E82FB117 /* Pods-STTVShow.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		E47C0F801D260384002894AF = {
 			isa = PBXGroup;
 			children = (
 				E47C0F8B1D260384002894AF /* STTVShow */,
 				E47C0F8A1D260384002894AF /* Products */,
+				728A40C7B1537288F439CD3F /* Pods */,
+				26F81ABA11753065379A4973 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,13 +180,14 @@
 			isa = PBXGroup;
 			children = (
 				E47C0F8F1D260384002894AF /* AppDelegate.h */,
-				E47C0F901D260384002894AF /* AppDelegate.m */,
-				E47C0F921D260384002894AF /* ViewController.h */,
-				E47C0F931D260384002894AF /* ViewController.m */,
-				E47C0F951D260384002894AF /* Main.storyboard */,
-				E47C0F981D260384002894AF /* Assets.xcassets */,
-				E47C0F9A1D260384002894AF /* LaunchScreen.storyboard */,
-				E47C0F9D1D260384002894AF /* Info.plist */,
+				E47C0F901D260384002894AF /* AppDelegate.mm */,
+				E47C0FC71D262086002894AF /* Macro */,
+				E47C0FC01D261F1D002894AF /* Extension */,
+				E47C0FB51D261A88002894AF /* Base */,
+				E47C0FB11D260ED8002894AF /* Tool */,
+				E47C0FA31D260788002894AF /* External */,
+				E47C0FBA1D261DE9002894AF /* TVShow */,
+				E47C10301D264498002894AF /* Resource */,
 				E47C0F8C1D260384002894AF /* Supporting Files */,
 			);
 			path = STTVShow;
@@ -79,6 +201,222 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		E47C0FA31D260788002894AF /* External */ = {
+			isa = PBXGroup;
+			children = (
+				E47C0FC41D262061002894AF /* SystemMethodHook.h */,
+				E47C0FC51D262061002894AF /* SystemMethodHook.m */,
+				E47C0FA41D260788002894AF /* JuheApisSDK */,
+			);
+			path = External;
+			sourceTree = "<group>";
+		};
+		E47C0FA41D260788002894AF /* JuheApisSDK */ = {
+			isa = PBXGroup;
+			children = (
+				E47C0FA51D260788002894AF /* include */,
+				E47C0FA91D260788002894AF /* JuheApisSDK.a */,
+			);
+			path = JuheApisSDK;
+			sourceTree = "<group>";
+		};
+		E47C0FA51D260788002894AF /* include */ = {
+			isa = PBXGroup;
+			children = (
+				E47C0FA61D260788002894AF /* JuheApisSDK */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		E47C0FA61D260788002894AF /* JuheApisSDK */ = {
+			isa = PBXGroup;
+			children = (
+				E47C0FA71D260788002894AF /* JHAPISDK.h */,
+				E47C0FA81D260788002894AF /* JHOpenidSupplier.h */,
+			);
+			path = JuheApisSDK;
+			sourceTree = "<group>";
+		};
+		E47C0FB11D260ED8002894AF /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				E47C0FB21D260F17002894AF /* STJHAPIClient.h */,
+				E47C0FB31D260F17002894AF /* STJHAPIClient.m */,
+			);
+			name = Tool;
+			sourceTree = "<group>";
+		};
+		E47C0FB51D261A88002894AF /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				E47C10211D264406002894AF /* BaseObject.h */,
+				E47C10221D264406002894AF /* BaseObject.m */,
+				E47C10231D264406002894AF /* BaseTableCell.h */,
+				E47C10241D264406002894AF /* BaseTableCell.m */,
+				E47C10251D264406002894AF /* BaseView.h */,
+				E47C10261D264406002894AF /* BaseView.m */,
+				E47C10271D264406002894AF /* BaseViewController.h */,
+				E47C10281D264406002894AF /* BaseViewController.m */,
+				E47C0FB61D261AA7002894AF /* BaseTableViewController.h */,
+				E47C0FB71D261AA7002894AF /* BaseTableViewController.m */,
+				E47C10341D264703002894AF /* STNavigationController.h */,
+				E47C10351D264703002894AF /* STNavigationController.m */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		E47C0FBA1D261DE9002894AF /* TVShow */ = {
+			isa = PBXGroup;
+			children = (
+				E47C0FBB1D261DE9002894AF /* TVStationList */,
+				E47C103F1D264C6C002894AF /* Channel */,
+			);
+			path = TVShow;
+			sourceTree = "<group>";
+		};
+		E47C0FBB1D261DE9002894AF /* TVStationList */ = {
+			isa = PBXGroup;
+			children = (
+				E47C10141D263AE2002894AF /* Model */,
+				E47C0FBC1D261DE9002894AF /* Controller */,
+			);
+			name = TVStationList;
+			path = Main;
+			sourceTree = "<group>";
+		};
+		E47C0FBC1D261DE9002894AF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E47C0FBD1D261DE9002894AF /* STTVStationViewController.h */,
+				E47C0FBE1D261DE9002894AF /* STTVStationViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E47C0FC01D261F1D002894AF /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				E47C0FF21D262286002894AF /* NSAttributedString+SizeRemind.h */,
+				E47C0FF31D262286002894AF /* NSAttributedString+SizeRemind.m */,
+				E47C0FF41D262286002894AF /* NSDate+Format.h */,
+				E47C0FF51D262286002894AF /* NSDate+Format.m */,
+				E47C0FF61D262286002894AF /* NSString+AttributedString.h */,
+				E47C0FF71D262286002894AF /* NSString+AttributedString.m */,
+				E47C0FF81D262286002894AF /* NSString+TimeStamp.h */,
+				E47C0FF91D262286002894AF /* NSString+TimeStamp.m */,
+				E47C0FFA1D262286002894AF /* UIColor+Ext.h */,
+				E47C0FFB1D262286002894AF /* UIColor+Ext.m */,
+				E47C0FFC1D262286002894AF /* UIFont+SM_Ext.h */,
+				E47C0FFD1D262286002894AF /* UIFont+SM_Ext.m */,
+				E47C0FFE1D262286002894AF /* UIImage+Color.h */,
+				E47C0FFF1D262286002894AF /* UIImage+Color.m */,
+				E47C10001D262286002894AF /* UIImage+Initial.h */,
+				E47C10011D262286002894AF /* UIImage+Initial.m */,
+				E47C10021D262286002894AF /* UIImageView+SMWebCache.h */,
+				E47C10031D262286002894AF /* UIImageView+SMWebCache.m */,
+				E47C10041D262286002894AF /* UIScrollView+EmptyDataSet.h */,
+				E47C10051D262286002894AF /* UIScrollView+EmptyDataSet.m */,
+				E47C0FC81D2620BF002894AF /* UIView+Extension.h */,
+				E47C0FC91D2620BF002894AF /* UIView+Extension.m */,
+			);
+			name = Extension;
+			sourceTree = "<group>";
+		};
+		E47C0FC71D262086002894AF /* Macro */ = {
+			isa = PBXGroup;
+			children = (
+				E47C102D1D264415002894AF /* MainAppearance.h */,
+				E47C102E1D264415002894AF /* MainConfigure.h */,
+				E47C102F1D264415002894AF /* Notification.h */,
+			);
+			name = Macro;
+			sourceTree = "<group>";
+		};
+		E47C10141D263AE2002894AF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E47C101E1D263B83002894AF /* STTelevisionStation.h */,
+				E47C101F1D263B83002894AF /* STTelevisionStation.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		E47C10301D264498002894AF /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				E47C0F951D260384002894AF /* Main.storyboard */,
+				E47C0F981D260384002894AF /* Assets.xcassets */,
+				E47C0F9A1D260384002894AF /* LaunchScreen.storyboard */,
+				E47C0F9D1D260384002894AF /* Info.plist */,
+				E47C10371D26499C002894AF /* Image */,
+				E47C10311D264498002894AF /* Font */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		E47C10311D264498002894AF /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				E47C10321D264498002894AF /* 19=胡晓波美心常规体.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		E47C10371D26499C002894AF /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				E47C10381D26499C002894AF /* NavigationBar */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		E47C10381D26499C002894AF /* NavigationBar */ = {
+			isa = PBXGroup;
+			children = (
+				E47C10391D26499C002894AF /* back.png */,
+				E47C103A1D26499C002894AF /* back@2x.png */,
+				E47C103B1D26499C002894AF /* back@3x.png */,
+			);
+			path = NavigationBar;
+			sourceTree = "<group>";
+		};
+		E47C103F1D264C6C002894AF /* Channel */ = {
+			isa = PBXGroup;
+			children = (
+				E47C10411D264C6C002894AF /* Model */,
+				E47C10421D264C6C002894AF /* View */,
+				E47C10401D264C6C002894AF /* Controller */,
+			);
+			path = Channel;
+			sourceTree = "<group>";
+		};
+		E47C10401D264C6C002894AF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E47C10461D264DD1002894AF /* STChannelViewController.h */,
+				E47C10471D264DD1002894AF /* STChannelViewController.m */,
+				E47C10491D265D57002894AF /* STChannelPlayViewController.h */,
+				E47C104A1D265D57002894AF /* STChannelPlayViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E47C10411D264C6C002894AF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E47C10431D264C92002894AF /* STTelevisionChannel.h */,
+				E47C10441D264C92002894AF /* STTelevisionChannel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E47C10421D264C6C002894AF /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +424,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E47C0FA01D260384002894AF /* Build configuration list for PBXNativeTarget "STTVShow" */;
 			buildPhases = (
+				507CAE38D23BB880F436CC9D /* 📦 Check Pods Manifest.lock */,
 				E47C0F851D260384002894AF /* Sources */,
 				E47C0F861D260384002894AF /* Frameworks */,
 				E47C0F871D260384002894AF /* Resources */,
+				34DFF97E9A906DFED72AEC33 /* 📦 Embed Pods Frameworks */,
+				FC67C268EF912346D4404871 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -105,6 +446,7 @@
 		E47C0F811D260384002894AF /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = ST;
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = Stree7;
 				TargetAttributes = {
@@ -136,22 +478,97 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E47C10331D264498002894AF /* 19=胡晓波美心常规体.ttf in Resources */,
+				E47C103C1D26499C002894AF /* back.png in Resources */,
 				E47C0F9C1D260384002894AF /* LaunchScreen.storyboard in Resources */,
 				E47C0F991D260384002894AF /* Assets.xcassets in Resources */,
+				E47C103E1D26499C002894AF /* back@3x.png in Resources */,
 				E47C0F971D260384002894AF /* Main.storyboard in Resources */,
+				E47C103D1D26499C002894AF /* back@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		34DFF97E9A906DFED72AEC33 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-STTVShow/Pods-STTVShow-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		507CAE38D23BB880F436CC9D /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FC67C268EF912346D4404871 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-STTVShow/Pods-STTVShow-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E47C0F851D260384002894AF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E47C0F941D260384002894AF /* ViewController.m in Sources */,
-				E47C0F911D260384002894AF /* AppDelegate.m in Sources */,
+				E47C0FC61D262061002894AF /* SystemMethodHook.m in Sources */,
+				E47C10291D264406002894AF /* BaseObject.m in Sources */,
+				E47C10451D264C92002894AF /* STTelevisionChannel.m in Sources */,
+				E47C104B1D265D57002894AF /* STChannelPlayViewController.m in Sources */,
+				E47C102B1D264406002894AF /* BaseView.m in Sources */,
+				E47C100A1D262286002894AF /* UIColor+Ext.m in Sources */,
+				E47C100B1D262286002894AF /* UIFont+SM_Ext.m in Sources */,
+				E47C0FB41D260F17002894AF /* STJHAPIClient.m in Sources */,
+				E47C0F911D260384002894AF /* AppDelegate.mm in Sources */,
+				E47C10091D262286002894AF /* NSString+TimeStamp.m in Sources */,
+				E47C0FCA1D2620BF002894AF /* UIView+Extension.m in Sources */,
+				E47C10081D262286002894AF /* NSString+AttributedString.m in Sources */,
 				E47C0F8E1D260384002894AF /* main.m in Sources */,
+				E47C10361D264703002894AF /* STNavigationController.m in Sources */,
+				E47C100C1D262286002894AF /* UIImage+Color.m in Sources */,
+				E47C10071D262286002894AF /* NSDate+Format.m in Sources */,
+				E47C102C1D264406002894AF /* BaseViewController.m in Sources */,
+				E47C0FBF1D261DE9002894AF /* STTVStationViewController.m in Sources */,
+				E47C102A1D264406002894AF /* BaseTableCell.m in Sources */,
+				E47C100E1D262286002894AF /* UIImageView+SMWebCache.m in Sources */,
+				E47C100F1D262286002894AF /* UIScrollView+EmptyDataSet.m in Sources */,
+				E47C10481D264DD1002894AF /* STChannelViewController.m in Sources */,
+				E47C10201D263B83002894AF /* STTelevisionStation.m in Sources */,
+				E47C0FB81D261AA7002894AF /* BaseTableViewController.m in Sources */,
+				E47C100D1D262286002894AF /* UIImage+Initial.m in Sources */,
+				E47C10061D262286002894AF /* NSAttributedString+SizeRemind.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,6 +581,7 @@
 				E47C0F961D260384002894AF /* Base */,
 			);
 			name = Main.storyboard;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		E47C0F9A1D260384002894AF /* LaunchScreen.storyboard */ = {
@@ -172,6 +590,7 @@
 				E47C0F9B1D260384002894AF /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -261,10 +680,17 @@
 		};
 		E47C0FA11D260384002894AF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A09BC0514454929B0C1249A /* Pods-STTVShow.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = STTVShow/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/STTVShow/External/JuheApisSDK",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = Stree7.STTVShow;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -272,10 +698,17 @@
 		};
 		E47C0FA21D260384002894AF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59F7329089CD63D5E82FB117 /* Pods-STTVShow.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = STTVShow/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/STTVShow/External/JuheApisSDK",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = Stree7.STTVShow;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -300,6 +733,7 @@
 				E47C0FA21D260384002894AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

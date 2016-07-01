@@ -1,13 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="aie-7K-kbP">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="19=胡晓波美心常规体.ttf">
+            <string>huxiaobo-meixin</string>
+        </mutableArray>
+    </customFonts>
     <scenes>
-        <!--View Controller-->
+        <!--Station View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="STTVStationViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -17,9 +23,91 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" id="czi-vp-FcM">
+                        <nil key="title"/>
+                        <view key="titleView" contentMode="scaleToFill" id="hTr-Pm-TdN">
+                            <rect key="frame" x="180" y="6" width="240" height="33"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="电视台" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2rL-e1-kfF">
+                                    <rect key="frame" x="82" y="4" width="77" height="26"/>
+                                    <fontDescription key="fontDescription" name="huxiaobo-meixin" family="huxiaobo-meixin" pointSize="25"/>
+                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <constraints>
+                                <constraint firstItem="2rL-e1-kfF" firstAttribute="centerX" secondItem="hTr-Pm-TdN" secondAttribute="centerX" id="1hQ-Mj-mVQ"/>
+                                <constraint firstItem="2rL-e1-kfF" firstAttribute="centerY" secondItem="hTr-Pm-TdN" secondAttribute="centerY" id="ydu-SL-bPL"/>
+                            </constraints>
+                        </view>
+                    </navigationItem>
+                    <connections>
+                        <segue destination="s4M-WY-igL" kind="push" identifier="STChannelViewController_PUSH" id="Shf-Dk-jNi"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="1157" y="334"/>
+        </scene>
+        <!--Channel View Controller-->
+        <scene sceneID="h0Q-iu-7gV">
+            <objects>
+                <viewController id="s4M-WY-igL" customClass="STChannelViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="NNH-aR-klC"/>
+                        <viewControllerLayoutGuide type="bottom" id="Edk-lG-KzD"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Yfq-0E-QFG">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="xDb-nK-CPN"/>
+                    <connections>
+                        <segue destination="giy-I6-zfF" kind="push" identifier="STChannelPlayViewController_PUSH" id="Lhh-C3-VfA"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PEG-ww-9La" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1810" y="334"/>
+        </scene>
+        <!--Channel Play View Controller-->
+        <scene sceneID="C6x-yv-rVq">
+            <objects>
+                <viewController id="giy-I6-zfF" customClass="STChannelPlayViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="DBy-oa-Jrf"/>
+                        <viewControllerLayoutGuide type="bottom" id="HP6-P4-4hX"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="0kV-oy-TKK">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="SfU-AB-yDg"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XbM-HI-AG3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2487" y="334"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="1Dw-30-TWW">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="aie-7K-kbP" customClass="STNavigationController" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="tI0-ZN-bXD">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="ZGc-cj-977"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RpG-mf-Ozi" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="506" y="334"/>
         </scene>
     </scenes>
 </document>
